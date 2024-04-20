@@ -85,3 +85,4 @@ export class EventEmitter implements IEvents {
     }
 }
 
+export default new EventEmitter();
