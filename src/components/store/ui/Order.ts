@@ -1,7 +1,7 @@
 import { Form } from '../ui/Form';
 import { Events, IOrder } from '../../../types';
-import { IEvents } from '../../base/events';
-export class Order extends Form<IOrder> {
+import { IEvents } from '../../base/Events';
+export class OrderForm extends Form<IOrder> {
 	protected _altButtons;
 
 	constructor(container: HTMLFormElement, events: IEvents) {
